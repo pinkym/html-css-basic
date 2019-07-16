@@ -126,7 +126,9 @@ p, li, h1 {
 <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
 ```
 以上代码为当前网页下载 Open Sans 字体，从而使自定义 CSS 中可以对 HTML 元素应用这个字体。
+
  2. 接下来，删除 `style.css` 文件中已有的规则。虽然测试是成功的了，但是红字看起来并不太舒服。
+ 
  3. 将下列代码添加到相应的位置，用你在 [Google Fonts](https://fonts.google.com/) 找到的字体替代 `font-family` 中的占位行。（ `font-family` 意味着你想要你的文本使用的字体。）这条规则首先为整个页面设定了一个全局字体和字号（因为` <html>` 是整个页面的父元素，而且它所有的子元素都会继承相同的 `font-size` 和 `font-family`）：
 ```css
 html {
