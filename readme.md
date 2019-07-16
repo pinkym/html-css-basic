@@ -115,6 +115,7 @@ p, li, h1 {
 |类选择器	|具有特定类的元素（单一页面中，一个类可以有多个实例）|	`.my-class`选择` <p class="my-class">` 和` <a class="my-class">`|
 |属性选择器	|拥有特定属性的元素	|`img[src]`选择 `<img src="myimage.png"> `而不是 `<img>`|
 |伪（Pseudo）类选择器|	特定状态下的特定元素（比如鼠标指针悬停）|`a:hover`仅在鼠标指针悬停在链接上时选择 `<a>`|
+
 还有更多选择器种类，参考 [选择器](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Selectors)。
 
 ## 字体和文本
@@ -222,4 +223,8 @@ img {
 2）用 CSS 限制图片大小，即减小 <img> 元素 width 属性的值（比如 400 px）
 
 ## 更多css
-[参考](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
+[深入学习css](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
+
+
+# 参考资料
+https://developer.mozilla.org/zh-CN/docs/learn
