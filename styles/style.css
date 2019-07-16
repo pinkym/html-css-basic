@@ -1,0 +1,35 @@
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px; 
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #9C7171;
+}
+
+body {
+    width: 600px; /*强制页面宽度*/
+    margin: 0 auto; /*第一个值上下外间距，第二个值左右外间距*/
+    background-color: #DAD2D2;
+    padding: 0 20px 20px 20px; /*值以上、右、下、左的顺序排列(顺时针)*/
+    border: 5px solid #575050;
+} 
+
+h1 {
+    margin: 0; /* 默认的h1 会有一定的行间距。使用margin:0;覆盖默认值*/
+    padding: 20px 0; /*上下内边距*/
+    font-size: 60px;
+    text-align: center; /*字体居中*/
+    color: #9C7171; 
+    text-shadow: 3px 2px 3px gray; /*字体阴影。第一个值表示右移的像素，第二个表示下移的像素，第三个表示模糊半径，值越大越模糊，第四个表示阴影基色*/
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2; 
+    letter-spacing: 1px; /*字符间距*/
+}
+
+img {
+    display: block; /*使内联元素img具有块级元素的功能*/
+    margin: 0 auto; /*左右居中*/
+}
