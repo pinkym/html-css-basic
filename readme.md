@@ -224,6 +224,18 @@ img {
 1）使用 图片编辑器 来减小图片宽度；
 2）用 CSS 限制图片大小，即减小 <img> 元素 width 属性的值（比如 400 px）
 
+## 溢出 overflow
+当元素的内容超出了元素的范围，overflow决定如何处理这些超出的部分。
+
+- `visable`:默认。可见。
+- `hidden`: 隐藏
+- `scroll`: 显示为滚动条
+- `auto`: 如果内容超出了元素范围，显示滚动条。如果没有，啥也不做。
+
+> `overflow` 属性只对具有高度的block元素有效。
+
+
+
 ## 更多css
 [深入学习css](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
 
